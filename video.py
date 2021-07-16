@@ -30,7 +30,7 @@ if __name__ == '__main__' :
  
         # Display result
         cv2.imshow("Tracking", frame)
- 
+        #cv2.imwrite("res/result.jpg", frame)
         # Exit if ESC pressed
         k = cv2.waitKey(1) & 0xff
         if k == 27 : break
